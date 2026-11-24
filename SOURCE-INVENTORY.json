@@ -19,15 +19,15 @@
     },
     {
       "path": "SECURITY.md",
-      "sha256": "f25770ee126ee33e046365b75e84f30d1a06f81ec5b6a7289c423a10db2e3406"
+      "sha256": "420090dff2c31cbdfa9cce30816dee86c88630acd1f31996bc4c210a6475a140"
     },
     {
       "path": "SKILL.md",
-      "sha256": "2488aeaef705cfe52b440a8fccf752f50eea5b6c36808a21db925756dc5bab46"
+      "sha256": "39c35ef9dd89f9877abe3c66ab3ae6d0bda6d0024be03633317c20de90cdc64b"
     },
     {
       "path": "desktop/ARCHITECTURE.md",
-      "sha256": "92a691b8cfeccd2b3cf5a7f04f710df195bea1ff8cfb4a9bda7355e67eb89d0c"
+      "sha256": "ac109b23c9313d00a4152452b3a02f135ed307ecb7c90314ea2bf39210e0233f"
     },
     {
       "path": "desktop/DESIGN.md",
@@ -35,11 +35,11 @@
     },
     {
       "path": "desktop/INSTALL-Linux.md",
-      "sha256": "1fcd87d29c7055eacf6cdaf2d38db29a20997ae1460b8b085f0f2d7d4d268251"
+      "sha256": "e7baf072d33d9aad95b9dbd774ae13a3f49be8b4b86dc6036ad39bf521003f2a"
     },
     {
       "path": "desktop/INSTALL-Windows.md",
-      "sha256": "06c1ccfcd31270ea305150592329d264fd4c6e419af8bda3fc782eef4ac55ce6"
+      "sha256": "83ed29634a73de0e8c42ca18574b3cc5742c6dde615541d36b5e18a2b230ef2d"
     },
     {
       "path": "desktop/INSTALL-macOS.md",
@@ -51,7 +51,7 @@
     },
     {
       "path": "desktop/RELEASE.md",
-      "sha256": "7406ec47814dcd376893c532c9f6aec5a3b97f385f591b813f48ac582a108d98"
+      "sha256": "43298ce3f7cd9ad2cf716e0c06bca664813b5da09f9d95563b0348e71442e2e5"
     },
     {
       "path": "desktop/THIRD_PARTY_NOTICES.txt",
@@ -75,27 +75,27 @@
     },
     {
       "path": "desktop/docs/PLATFORM-ACTIONS.md",
-      "sha256": "2e809c0cf8deabbcbf935d71c7fcc29f47aa91f573bd3f65e8d7354b37e5b4d2"
+      "sha256": "e38774e2200365ea9b2325eddba60fcf0a56409adb029be93838786ffc702f33"
     },
     {
       "path": "desktop/docs/REMOTE-ADAPTATION-FLOW.html",
-      "sha256": "cdbb89ffa412688fe5f935411b760f90d22bd90994c4eb65356a7eb6a2c0a23f"
+      "sha256": "fccce6018e597659bf5549af1918db7f8d3d234d6ef7a72266708e685563176b"
     },
     {
       "path": "desktop/docs/REMOTE-ADAPTATION.md",
-      "sha256": "7e73b5c3dfa62902a8bc8afaf476c9656329971ff89116dba07027b625c00559"
+      "sha256": "4d8a56d700b43e622c2a788669732592e7591a4f1a743d9bfb4f61320dfe560c"
     },
     {
       "path": "desktop/docs/REMOTE-RECORD-TEMPLATE.md",
-      "sha256": "d0b9413353bb30a263e9247aa79fceca93db2c66353b83b124234fbad76fc25e"
+      "sha256": "42340282b3efd36c05cb8b280b5b1376622fad49b32879bb14741a9973303049"
     },
     {
       "path": "desktop/docs/SOURCE-README.md",
-      "sha256": "d841c94f92da407f6661d28d52a351defc514d848b10f495ae93e17f36e9147f"
+      "sha256": "1a80ff67ef9b1f6689578064db9a6d4ef27c834e5b8e62763a81ef23c355d71f"
     },
     {
       "path": "desktop/docs/WINDOWS-TESTING.md",
-      "sha256": "6c4e7daade8d7483d2c1d966cd15f0d6b81ccb6e471dfcdbe2a76376660802c0"
+      "sha256": "7205fabaaab169ea41d9e38ea1cce7de29808da14e73a5f2c6042ccfacd556c1"
     },
     {
       "path": "desktop/docs/screenshots/mapping.png",
@@ -1415,7 +1415,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "d841c94f92da407f6661d28d52a351defc514d848b10f495ae93e17f36e9147f"
+      "sha256": "1a80ff67ef9b1f6689578064db9a6d4ef27c834e5b8e62763a81ef23c355d71f"
     }
   ]
 }

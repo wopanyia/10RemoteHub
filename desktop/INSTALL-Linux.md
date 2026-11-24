@@ -12,11 +12,11 @@
 
 ## 1. 解压与启动（本地构建包）
 
-运行 `bash desktop/scripts/build_linux.sh` 生成 `10RemoteHub-0.3.0-linux-x86_64.tar.gz` 后，解压到任意目录（如 `~/Applications/` 或 `/opt/`）：
+运行 `bash desktop/scripts/build_linux.sh` 生成 `10RemoteHub-0.3.1-linux-x86_64.tar.gz` 后，解压到任意目录（如 `~/Applications/` 或 `/opt/`）：
 
 ```bash
 mkdir -p ~/Applications
-tar -xzf 10RemoteHub-0.3.0-linux-x86_64.tar.gz -C ~/Applications
+tar -xzf 10RemoteHub-0.3.1-linux-x86_64.tar.gz -C ~/Applications
 ~/Applications/10RemoteHub/10RemoteHub
 ```
 

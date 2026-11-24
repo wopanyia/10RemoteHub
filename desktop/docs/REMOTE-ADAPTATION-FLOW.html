@@ -149,7 +149,7 @@ th { font-size: 12px; color: var(--muted); font-weight: 500; letter-spacing: 0.0
 <div class="wrap">
   <header>
     <h1>新遥控器接入流程</h1>
-    <p class="lede">10RemoteHub 0.3.0 统一版：从插上接收器或连好蓝牙，到按键执行动作、语音出字。左边是一步一步的操作，右边是这一步软件能做到和做不到的事。</p>
+    <p class="lede">10RemoteHub 0.3.x 统一版：从插上接收器或连好蓝牙，到按键执行动作、语音出字。左边是一步一步的操作，右边是这一步软件能做到和做不到的事。</p>
   </header>
 
   <div class="legend" aria-label="图例">
@@ -386,10 +386,10 @@ th { font-size: 12px; color: var(--muted); font-weight: 500; letter-spacing: 0.0
       <table>
         <thead><tr><th>样机</th><th>接入方式</th><th>按键</th><th>语音</th><th>还差什么</th></tr></thead>
         <tbody>
-          <tr><td>2.4G 语音遥控器 <span class="mono">0416:0602</span></td><td>专用采集 + 按键与语音协议</td><td><span class="pill ok">已实机验证</span></td><td><span class="pill ok">遥控器麦克风已验证</span></td><td>macOS 照片学键、「完成设置」清单、虚拟麦一键重开 App 与九键上屏已实机；Windows 一键接管待实机</td></tr>
+          <tr><td>2.4G 语音遥控器 <span class="mono">0416:0602</span></td><td>专用采集 + 按键与语音协议</td><td><span class="pill ok">已实机验证</span></td><td><span class="pill ok">遥控器麦克风已验证</span></td><td>macOS / Windows 照片学键、「完成设置」清单、九键拼音上屏及 Windows 软件内一键接管（0.3.1）均已实机验证</td></tr>
           <tr><td>蓝牙飞鼠 <span class="mono">620A:0407</span></td><td>蓝牙 HID，照片手学</td><td><span class="pill ok">macOS 已实机验证</span></td><td><span class="pill part">触发识别待测</span></td><td>macOS 照片学键、屏蔽原键（保留飞鼠）与多设备切换已验证；无内置麦克风</td></tr>
           <tr><td>BLE 语音遥控器 <span class="mono">0416:0300</span> / FIBER0D</td><td>外接 USB 蓝牙棒直连（<span class="mono">ble-dongle</span>），照片手学</td><td><span class="pill ok">Windows 已实机验证</span></td><td><span class="pill ok">遥控器麦克风实时送达已验证</span></td><td>macOS / Linux 上的蓝牙棒直连待实机；Windows 识别体验不如 macOS，原因未定位</td></tr>
-          <tr><td>其他普通 2.4G / 蓝牙遥控器</td><td>共享 HID，照片手学</td><td><span class="pill part">macOS 蓝牙已验 / Win 待测</span></td><td><span class="pill no">待实机</span></td><td>Windows 通用 HID 与一键接管待实机验证</td></tr>
+          <tr><td>其他普通 2.4G / 蓝牙遥控器</td><td>共享 HID，照片手学</td><td><span class="pill part">macOS 蓝牙已验 / Win 待测</span></td><td><span class="pill no">待实机</span></td><td>Windows 通用共享 HID 屏蔽与未知接收器 15 秒回退待更多样机验证</td></tr>
         </tbody>
       </table>
     </div>

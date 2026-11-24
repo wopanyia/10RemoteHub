@@ -3,7 +3,7 @@ knowledge-role: reference
 knowledge-status: current
 ---
 
-# 遥控器接入：架构、阶段与能力边界（0.3.0）
+# 遥控器接入：架构、阶段与能力边界（0.3.x）
 
 本文回答三件事：0.3.0 的软件怎么组织遥控器和接收端，每个阶段能做到什么、做不到什么，以及新增一只遥控器时代码该接在哪里。操作引导见仓库根 `SKILL.md` 第 6 节，接入记录表见 [REMOTE-RECORD-TEMPLATE.md](REMOTE-RECORD-TEMPLATE.md)。流程图（本地网页）见 [REMOTE-ADAPTATION-FLOW.html](REMOTE-ADAPTATION-FLOW.html)。
 
@@ -145,6 +145,6 @@ enrollment.py                         添加流程各步提示与脱敏诊断
 ## 7. 待办与已知限制
 
 1. 读取端同时打开多个接收端（Mac 共享 IOHID、Windows Raw Input 都可扩展）。
-2. 扩展读取端实现：私有协议（如 BLE 遥控器 `FIBER0D`、`ble_remote.py`）或 Linux 共享 HID 后续直接实现 `readers.KeyReader` 并在 `readers.py` 新增一条 `ReaderEntry` 注册项即可接入，无需修改 `AppController`（注册表机制与互斥选路已就绪）。
+2. 扩展读取端实现：新的厂商私有协议或 Linux 共享 HID 后续直接实现 `readers.KeyReader` 并在 `readers.py` 新增一条 `ReaderEntry` 注册项即可接入（可参考已合入并实机验证的 `ble_dongle_reader.py`），无需修改 `AppController`（注册表机制与互斥选路已就绪）。
 3. 按收到键码的接收端自动切换遥控器（共用接收端时仍按当前启用的遥控器）。
 4. 页 9 按钮与系统控制页的支持需要同时放宽枚举过滤和键码校验。

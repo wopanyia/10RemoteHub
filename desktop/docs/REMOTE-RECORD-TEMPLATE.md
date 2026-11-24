@@ -12,7 +12,7 @@ knowledge-status: current
 ```yaml
 schema: remote-record/1
 date: 2026-11-20
-app: {kind: release|source, version: "0.3.0", entry: "main-window (python -m remotehub)"}
+app: {kind: release|source, version: "0.3.1", entry: "main-window (python -m remotehub)"}
 platform: {os: "macOS 15.1 / Windows 11 24H2", arch: arm64|x64}
 
 device:

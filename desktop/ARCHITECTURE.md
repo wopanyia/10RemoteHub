@@ -110,7 +110,7 @@ theme.py   设计令牌、QSS 生成、apply_theme
 - 拔出接收器会停止监听并取消启用；换同型号设备无需绑定（`test_inventory`）。
 - USB 接管前的所有检查先于确认框（`test_controller`）。
 - 快捷键按物理键保存：macOS 上录 ⌘C 存为 `cmd+c`（`test_ui`）。
-- 配置文件格式不变：`{"version": 1, "profiles": [...], "settings": {...}}`（`test_controller`）。
+- 配置文件格式保持向后兼容：`0.3.0` 起主存储为 `remotes.json`（`{"version": 2, "remotes": [...], "active_remote_id": ...}`），首次读取时无损迁移旧 `profiles.json`（`{"version": 1, "profiles": [...], "settings": {...}}`）（`test_controller`、`test_remote_library`）。
 
 ## 扩展方式
 
